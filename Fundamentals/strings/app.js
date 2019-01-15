@@ -1,0 +1,33 @@
+let band = "Metallica";
+let song = "Enter Sandman";
+let playing;
+playing = 'Playing ' + song + ' by ' + band;
+name = band + ": " + song;
+let name;
+name = 'Juan Pablo ';
+name += 'De la torre';
+console.log(name);
+const learning = 'Learning JavaScript is great!';
+let output;
+output = learning.length ;
+output = learning.concat(" ", " and fun");
+output = learning.toUpperCase();
+output = learning.toLowerCase();
+output = learning.indexOf('JavaScript');
+output = learning.indexOf('PHP');
+output = learning.substring(0,10);
+output = learning.substring(2,10);
+output = learning.substring( learning.length - 4 );
+output = learning.slice(0,4);
+output = learning.slice(-3);
+output = learning.split(" ");
+const hobbies = 'read, walk, listen music, write, learn to program';
+output = hobbies.split(", ");
+output = learning.replace('JavaScript', 'Modern JavaScript');
+output = learning.includes('JavaScript');
+output = learning.includes('PHP');
+let greet =  "hello ";
+    output = greet.repeat(3);
+
+console.log(output);
+    

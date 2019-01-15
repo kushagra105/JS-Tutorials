@@ -1,0 +1,21 @@
+let name = prompt('what is your name?');
+document.getElementById('name').innerHTML = 'Welcome: ' + name;
+console.log("Hello World!");
+let learning = 'Learning JavaScript';
+console.log(learning);
+console.log([1, 2,3,4]);
+let myInfo = { name: "juan", job: "Web developer" }
+console.log( myInfo );
+console.table([1, 2, 3, 4]);
+console.error("Ooops!, something went wrong!");
+console.clear();
+console.warn("A warning");
+console.time('Test');
+console.warn("A warning");
+console.warn("A warning");
+console.warn("A warning");
+console.warn("A warning");
+console.warn("A warning");
+console.warn("A warning");
+console.warn("A warning");
+console.timeEnd('Test');
