@@ -35,7 +35,7 @@ function loadData() {
            document.getElementById('output').innerHTML = `<h1>${this.responseText}</h1>`;
          }
     }
-
+   
      // Send the Request
      xhr.send();
 
